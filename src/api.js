@@ -4,7 +4,7 @@ const user = require('./controller/user.controller.js')
 const app =express();
 const port =3000;
 
-
+//prueba
 app.use(express.urlencoded({extended: false}));
 app.use(express.json());
 
