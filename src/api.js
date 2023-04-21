@@ -5,6 +5,7 @@ const app =express();
 const port =3000;
 
 //prueba
+//prueba 2
 app.use(express.urlencoded({extended: false}));
 app.use(express.json());
 
